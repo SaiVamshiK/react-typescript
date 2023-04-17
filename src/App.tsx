@@ -18,10 +18,14 @@ function App() {
       lastName: "Rohit"
     }
   ];
+  const name = {
+    firstName: "KL",
+    lastName: "Rahul"
+  }
   return (
     <div className="App">
       <Greet name="Vamshi" count={10} isLoggedIn={true}/>
-      <Person firstName="KL" lastName="Rahul"/>
+      <Person personName = {name}/>
       <PersonList listNames={nameList}/>
     </div>
   );
