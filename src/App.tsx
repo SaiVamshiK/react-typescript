@@ -4,7 +4,7 @@ import { Greet } from './components/Greet';
 function App() {
   return (
     <div className="App">
-      <Greet name="Vamshi"/>
+      <Greet name="Vamshi" count={10}/>
     </div>
   );
 }
