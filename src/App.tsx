@@ -17,7 +17,7 @@ function App() {
     },
     {
       firstName: "Rohit",
-      lastName: "Rohit"
+      lastName: "Sharma"
     }
   ];
   const name = {
